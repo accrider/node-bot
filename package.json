@@ -1,0 +1,22 @@
+{
+	"name": "Node-bot",
+	"description": "IRC Bot written in Nodejs",
+	"version": "1.0.0",
+	"maintainers": [
+		{
+			"name": "Adam Crider",
+			"email": "accrider@ualr.edu"
+		}
+	],
+	"main": "bot.js",
+	"scripts": {
+		"start": "node bot.js"
+	},
+	"dependencies": {
+		"irc": "latest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/accrider/node-bot.git"
+	}
+}
