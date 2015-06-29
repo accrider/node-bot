@@ -13,7 +13,8 @@
 		"start": "node bot.js"
 	},
 	"dependencies": {
-		"irc": "latest"
+		"irc": "latest",
+		"shelljs": "latest"
 	},
 	"repository": {
 		"type": "git",

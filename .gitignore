@@ -1,3 +1,6 @@
+#git stuff
+.gitmodules
+
 # Logs
 logs
 *.log
