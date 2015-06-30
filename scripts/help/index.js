@@ -1,6 +1,6 @@
 module.exports = {
 	main: function(client, channel, user, message) {
-		client.say(channel, "This is a help export");
+		client.say(channel, "Usage: HueBot [command] [args]");
 	},
 	load: function() {
 		console.log("Help is loaded");

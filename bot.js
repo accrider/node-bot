@@ -1,5 +1,4 @@
 var irc = require('irc');
-var shell = require('shelljs')
 var mod = require('./module.js');
 
 //git submodule add REPO scripts/name
@@ -7,7 +6,7 @@ var mod = require('./module.js');
 var name = 'HueBot';
 
 var modules = [];
-var default_modules = ['help'];
+var default_modules = ['help','git'];
 
 for (var index in default_modules) {
 	modules[default_modules[index]] = new mod.Module(default_modules[index]);
